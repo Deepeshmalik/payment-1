@@ -1,0 +1,123 @@
+/* index.css */
+
+/* Common styles for both views */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.amount-order {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.amount-order p {
+  font-size: 1.2em;
+}
+
+/* Styles for QRView */
+.qr-view h2,
+.desktop-view h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.qr-code img,
+.payment-options img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Styles for DesktopView */
+.desktop-view {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.upi-id {
+  margin-top: 20px;
+}
+
+.upi-id label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.upi-id input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.upi-id button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.upi-id button:hover {
+  background-color: #0056b3;
+}
+
+
+/* QRView.css */
+
+.qr-view {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.qr-view h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.amount-order {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.amount-order p {
+  font-size: 1.2em;
+}
+
+.qr-code img {
+  width: 200px;
+  height: 200px;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.payment-options img {
+  width: 60px;
+  height: 60px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
